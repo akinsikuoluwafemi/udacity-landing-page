@@ -1,0 +1,89 @@
+html {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: #eee; */
+}
+
+svg {
+    height: 8rem;
+    width: 15rem;
+}
+
+/* checkbox hack for toggle */
+
+input{
+    display: none;
+}
+
+.display {
+    display: none;
+}
+
+input:checked + div.display {
+    display: block;
+}
+
+/* checkbox hack for toggle */
+
+
+/* header */
+.header {
+
+}
+
+.navigation {
+
+}
+
+.list {
+
+}
+
+.list-item {
+
+}
+
+.link-list {
+
+}
+
+.down {
+
+}
+
+.dropdown {
+
+}
+
+
+.btn {
+
+}
+
+.line::before {
+
+}
+
+
+
+/* hero section */
+.section-hero {
+    background-image: url('../images/hero.jpg');
+}
+
+
+.demand {
+    height: 55rem;
+    width: 57.41rem;
+}
+
+
+
+.small {
+    width: 4.8rem;
+}
