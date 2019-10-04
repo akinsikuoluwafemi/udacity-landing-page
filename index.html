@@ -6,37 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Learn the Latest Tech Skills; Advance your Career | Udacity</title>
     <link rel="shortcut icon" type="image/png" href="images/udacity-title-logo.png">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
         <nav class="navigation">
-            <ul class="list">
-                <li class="list-item"><a class="link-list" href="#"><img src="images/Udacity-nav-logo.svg"></a></li>
-                <li class="list-item">Programs 
+            <ul class="list apart">
+                <li class="list-item"><a class="link-list" href="#"><img class="nav-logo" src="images/Udacity-nav-logo.svg"></a></li>
+                
+                
 
-                    <label class="down" for="toggle"><img src="images/Group 11 | arrowdown.svg"></label>
+                    <li class="list-item p1">Programs 
+
+                    <label for="toggle"><img class="down-arr" src="images/Group 11 | arrowdown.svg"></label>
                     <input id="toggle" type="checkbox">
-                    <div class="display">
-                            <a class="link-list dropdown" href="#">PROGRAMMING AND DEVELOPMENT</a>
-                            <a class="link-list dropdown" href="#">ARTIFICIAL INTELLIGENCE</a>
-                            <a class="link-list dropdown" href="#">CLOUD COMPUTING</a>
-                            <a class="link-list dropdown" href="#">DATA SCIENCE</a>
-                            <a class="link-list dropdown" href="#">BUSINESS</a>
-                            <a class="link-list dropdown" href="#">AUTONOMOUS SYSTEMS</a>
-                            <a class="link-list dropdown" href="#">CAREER</a> 
-                        <button id="btn" type="button">FULL CATALOG</button>
+                    <div class="show">
+                        <a class="link-list dropdown" href="#">PROGRAMMING AND DEVELOPMENT</a>
+                        <a class="link-list dropdown" href="#">ARTIFICIAL INTELLIGENCE</a>
+                        <a class="link-list dropdown" href="#">CLOUD COMPUTING</a>
+                        <a class="link-list dropdown" href="#">DATA SCIENCE</a>
+                        <a class="link-list dropdown" href="#">BUSINESS</a>
+                        <a class="link-list dropdown" href="#">AUTONOMOUS SYSTEMS</a>
+                        <a class="link-list dropdown" href="#">CAREER</a>
+                        <div></div>
+                        <a class="link-list dropdown" id="btn" href="#">FULL CATALOG</a>
                     </div>
                 </li>
+
+                
+           
+
 
 
                 <li class="list-item">Career
                 
-                    <label class="down" for="toggle"><img src="images/Group 11 | arrowdown.svg"></label>
-                    <input id="toggle" type="checkbox">
-                    <div class="display">
+                    <label  for="toggling"><img class="down" src="images/Group 11 | arrowdown.svg"></label>
+                    <input id="toggling" type="checkbox">
+                    <div class="show-career">
                         <a class="link-list dropdown" href="#">CAREER PREP</a>
                         <a class="link-list dropdown" href="#">GET HIRED</a>
                         <a class="link-list dropdown" href="#">HIRE OUR GRADS</a>
@@ -46,14 +54,15 @@
                 </li>
 
                 <li class="list-item"><a href="#">For Enterprise</a></li>
-                <div class="line"><div>
+                <li class="list-item"><a class="ver" href="#">|</a></li>
+                
                 <li class="list-item"><a href="#">Blog</a></li>
+ 
 
-
-                <li class="list-item"><a href="#">MY CLASSROOM</a></li>
+                <li class="list-item"><a class="room" href="index.html">MY CLASSROOM</a></li>
             </ul>
 
-        </nav>
+        </nav> 
     </header>
 
 
@@ -62,11 +71,11 @@
 
         <img class="demand" src="images/demand.svg">
         <div class="demand-section">
-            <p class="demand-section-heading">Be in demand</p>
+            <h2 class="heading">Be in demand</h2>
             <p class="demand-section-text">Learn the latest tech skills to propel your career forward</p>
             <div class="demand-flex">
-                <img src="images/Groupsearch.svg">
-                <input type="search" placeholder="What so you want to learn?">
+                <img class="find" src="images/Groupsearch.svg">
+                <input type="text" placeholder="What so you want to learn?">
 
             </div>
             <div class="demand-flex">
@@ -98,16 +107,19 @@
 
         <div class="new">
             <span>NEW</span>
-            <p class="new-heading">Introducing our newly updated Front End and Full Stack Nanodegree programs!</p>
+            <p class="new-heading">Introducing our newly updated Front End and Full Stack<br/> Nanodegree programs!</p>
             <p class="new-text">Find out which Web Developer Nanodegree program is the right fit for you.</p>
         </div>
 
-        <a href="#">Learn More</a>
+        <div class="learn">
+            <a href="#">Learn More</a>
+
+        </div>
 
     </section>
 
     <section class="discover">
-        <h2 class="heading">Discover your perfect program in our schools</h2>
+        <h2 class="heading center">Discover your perfect program in our schools</h2>
 
 
         <div class="discover-boxes">
@@ -115,8 +127,8 @@
             <div class="discover-box">
                 <img class="small" src="images/data_sci_icon.png" alt="data-science-icon">
                 <div class="discover-box-text">
-                    <p>SCHOOL OF</p><br/>
-                    <p>Data Science</p>
+                    <p class="school">SCHOOL OF</p><br/>
+                    <p class="big">Data Science</p>
                 </div>
 
             </div>
@@ -124,8 +136,8 @@
             <div class="discover-box">
                 <img class="small" src="images/ai_icon.png" alt="data-science-icon">
                 <div class="discover-box-text">
-                    <p>SCHOOL OF</p><br />
-                    <p>Artificial Intelligence</p>
+                    <p class="school">SCHOOL OF</p><br />
+                    <p class="big">Artificial Intelligence</p>
                 </div>
             
             </div>
@@ -133,8 +145,8 @@
             <div class="discover-box">
                 <img class="small" src="images/dev_icon.png" alt="data-science-icon">
                 <div class="discover-box-text">
-                    <p>SCHOOL OF</p><br />
-                    <p>Programming</p>
+                    <p class="school">SCHOOL OF</p><br />
+                    <p class="big">Programming</p>
                 </div>
             
             </div>
@@ -142,8 +154,8 @@
             <div class="discover-box">
                 <img class="small" src="images/auto_sys_icon.png" alt="data-science-icon">
                 <div class="discover-box-text">
-                    <p>SCHOOL OF</p><br />
-                    <p>Autonomous Systems</p>
+                    <p class="school">SCHOOL OF</p><br />
+                    <p class="big">Autonomous Systems</p>
                 </div>
             
             </div>
@@ -151,8 +163,8 @@
             <div class="discover-box">
                 <img class="small" src="images/icon-school-cloud.svg" alt="data-science-icon">
                 <div class="discover-box-text">
-                    <p>SCHOOL OF</p><br />
-                    <p>Cloud Computing</p>
+                    <p class="school">SCHOOL OF</p><br />
+                    <p class="big">Cloud Computing</p>
                 </div>
             
             </div>
@@ -166,7 +178,7 @@
 
 
     <section class="top-companies">
-        <h2 class="heading">Industry leading programs built and recognized by top companies worldwide</h2>
+        <h2 class="heading center">Industry leading programs built and recognized by top companies worldwide</h2>
 
         <div class="top-companies-logo">
 
@@ -230,14 +242,16 @@
 
 
     <section class="all-nanodegree">
-        <h2 class="heading">All Our Nanodegree Programs Include:</h2>
+        <h2 class="heading  center">All Our Nanodegree Programs Include:</h2>
 <!-- nanodegree is a 2x2 grid system -->
         <div class="nanodegree">
 
             <div class="content">
                 <div class="content-image-div">
                     <img class="content-image" src="images/real-world-projects.png" alt="An image of someone working on a project">
-                    <img src="images/experts.svg" alt="An expert icon">
+                    <div class="beside">
+                        <img src="images/experts.svg" alt="An expert icon">
+                    </div>
                 </div>
 
                 <div class="content-text">
@@ -251,7 +265,9 @@
             <div class="content">
                 <div class="content-image-div">
                     <img class="content-image" src="images/mentor.jpg" alt="An image of a mentor">
-                    <img src="images/coding-icon.svg" alt="A coding icon">
+                    <div class="beside">
+                        <img src="images/coding-icon.svg" alt="A coding icon">
+                    </div>
                 </div>
             
                 <div class="content-text">
@@ -265,7 +281,9 @@
             <div class="content">
                 <div class="content-image-div">
                     <img class="content-image" src="images/career-coach.png" alt="An image of a career coach">
-                    <img src="images/career.svg" alt="A career icon">
+                    <div class="beside">
+                        <img src="images/career.svg" alt="A career icon">
+                    </div>
                 </div>
             
                 <div class="content-text">
@@ -278,8 +296,10 @@
 
             <div class="content">
                 <div class="content-image-div">
-                    <img class="content-image" src="images/self-paced.png" alt="">
-                    <img src="images/learningsched.svg" alt="A learning schedule icon">
+                    <img class="content-image" src="images/self-paced.png" alt="A self paced image">
+                    <div class="beside">
+                        <img src="images/learningsched.svg" alt="A learning schedule icon">
+                    </div>
                 </div>
             
                 <div class="content-text">
@@ -288,19 +308,392 @@
                     pace and reach your personal goals</p>
                 </div>
             </div>
-
-
-
-
-
-
-
-
         </div>
+    </section>
 
+
+    <section class="begin">
+        <img class="line" src="images/new line.svg">
+        <div class="begin-center">
+            <p class="ready center">Ready to begin?</p>
+            <p class="enroll">Enroll in a Nanodegree program and build your best future today.</p>
+            <a href="#">SEE OUR PROGRAMS</a>
+        </div>
 
     </section>
 
+
+
+    <section class="all-programmes">
+        <div class="all-programmes-text">
+            <h2>Check out our newest and most popular Nanodegree programs</h2>
+            <p class="all-programmes-paragraph">With our growing catalog of over 30 Nanodegree programs from beginner to advanced, you're sure to find one that fits
+            your career goals</p>
+            <a href="#">SEE ALL PROGRAMS  &nbsp; <span>&rarr;</span></a>
+        </div>
+        <!-- divide allprogrammes box into 3 columns -->
+        <!-- give programme box image a background image -->
+        <div class="all-programmes-box ">
+
+            <div class="programmes-box">
+                <div class="programmes-box-image box1">
+                    <p class="programmes-box-text">SCHOOL OF <br/> <span>Programming</span></p>
+                    <a class="link-list programme" href="#">NEW</a>
+                </div>
+                <div class="white">
+                    <p class="white-text">Front End Web<br/> Developer</p>
+                </div>
+            </div>
+
+
+            <div class="programmes-box ">
+                <div class="programmes-box-image box2">
+                    <p class="programmes-box-text">SCHOOL OF <br /> <span>Programming</span></p>
+                    <a class="link-list programme" href="#">NEW</a>
+                </div>
+                <div class="white">
+                    <p class="white-text">Full Stack Web<br /> Developer</p>
+                </div>
+            </div>
+
+            <div class="programmes-box ">
+                <div class="programmes-box-image box3">
+                    <p class="programmes-box-text">SCHOOL OF <br /> <span>Programming</span></p>
+                    <a class="link-list programme" href="#">NEW</a>
+                </div>
+                <div class="white">
+                    <p class="white-text">Java<br /> Developer</p>
+                </div>
+            </div>
+
+            <div class="programmes-box ">
+                <div class="programmes-box-image box4">
+                    <p class="programmes-box-text">SCHOOL OF <br /> <span>Programming</span></p>
+                    <a class="link-list programme" href="#">NEW</a>
+                </div>
+                <div class="white">
+                    <p class="white-text">AI Product Manager</p>
+                </div>
+            </div>
+
+            <div class="programmes-box ">
+                <div class="programmes-box-image box5">
+                    <p class="programmes-box-text">SCHOOL OF <br /> <span>Programming</span></p>
+                    <a class="link-list programme popular" href="#">POPULAR</a>
+                </div>
+                <div class="white">
+                    <p class="white-text">Self Driving Car</p>
+                </div>
+            </div>
+
+            <div class="programmes-box ">
+                <div class="programmes-box-image box6">
+                    <p class="programmes-box-text">SCHOOL OF <br /> <span>Programming</span></p>
+                    <a class="link-list programme popular" href="#">POPULAR</a>
+                </div>
+                <div class="white">
+                    <p class="white-text">Machine Learning<br /> Engineer</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="strength">
+        <div class="wrapper">
+            <h2 class="heading center ">Strength in numbers</h2>
+            
+            <div class="info">
+            
+                <div class="information">
+                    <img src="images/degree-hat.svg">
+                    <p class="total">80,000+</p>
+                    <p class="information-text">Udacity graduates and<br/> counting</p>
+                </div>
+            
+                <div class="information">
+                    <img src="images/star_copy.svg">
+                    <p class="total">200+</p>
+                    <p class="information-text">Industry experts partnering<br /> to build our content</p>
+                </div>
+            
+                <div class="information">
+                    <img src="images/star_copy_2.svg">
+                    <p class="total">100+</p>
+                    <p class="information-text">Enterprise customers <br />world-wide</p>
+                </div>
+            </div>
+            
+            
+            
+            <div class="stories">
+                <div class="story blue">
+                    <div class="correspondent">
+                        <img class="story-img" src="images/mike.jpg">
+                        <p class="story-name">Mike</p>
+                        <p class="story-text"><em>"Ultimately, Udacity is what really became the driving force behind the career
+                            change.</em>”</p>
+                    </div>
+            
+                    <div class="work">
+                        <p>NOW AT</p>
+                        <p>Audible</p>
+                    </div>
+            
+                </div>
+            
+            
+            
+                <div class="story green">
+                    <div class="correspondent">
+                        <img class="story-img" src="images/Ryan.jpg">
+                        <p class="story-name">Ryan</p>
+                        <p class="story-text">"<em>Before Udacity, I was working two minimum wage jobs. Now, I have a new job, a new
+                            mindset, and new life!"</em></p>
+                    </div>
+            
+                    <div class="work">
+                        <p>NOW AT</p>
+                        <p>US Department of Labor</p>
+                    </div>
+            
+                </div>
+            
+            
+                <div class="story purple">
+                    <div class="correspondent">
+                        <img class="story-img" src="images/isuare.jpg">
+                        <p class="story-name">Isuare</p>
+                        <p class="story-text">"<em>While freelancing as an interior designer, I took the Intro to Programming
+                            Nanodegree program to learn a new set of
+                            skills. It exposed me to a field of work I really enjoyed and now I work as a front-end developer."</em></p>
+                    </div>
+            
+                    <div class="work">
+                        <p>NOW AT</p>
+                        <p>Keeward</p>
+                    </div>
+            
+                </div>
+            
+            </div>
+        </div>
+
+       
+    </section>
+
+
+
+
+
+
+    <section class="mentor">
+        <div class="mentor-wrapper">
+            <img class="mentor-image" src="images/smiling_man_wearing_headset.jpg">
+        </div>
+    
+        <div class="new">
+            <p class="new-heading">Make a difference by becoming a Udacity mentor</p>
+            <p class="new-text">Help students master the tech skills they need to advance their career</p>
+        </div>
+    
+        <div class="learn uptop">
+            <a href="#">Learn More</a>
+        
+        </div>
+    
+    </section>
+
+
+    <img class="line" src="images/Group 16.svg">
+
+
+
+    <section class="explore">
+        <div class="explore-path">
+            <p class="heading head">Find the right learning <br/>path for you</p>
+            <div class="path-text">Match your goals to our programs, explore your options,<br> and map out your path to success.</div>
+            <div class="explore-link">
+                <a href="#">EXPLORE BY SCHOOL</a>
+                <a href="#">EXPLORE BY SKILL</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer">
+        <img class="foot" src="images/udacity.svg">
+
+        <section class="footer-section1">
+
+            <div class="row straight">
+                <p class="feature-text">FEATURED PROGRAMS</p>
+                <ul class="ul up">
+                    <li class="list-item progress"><a class="list-link " href="#">Java Developer</a></li>
+                    <li class="list-item progress"><a class="list-link " href="#" >AI Product Manager</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Senior Fusion Engineer</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Data Visualization</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Cloud Developer</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Cloud Dev Ops Engineer</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >C++</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Data Structures and Algorithms</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Market Analytics</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Data Engineer</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Android Basics</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Android Developer</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >iOS Developer</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Business Analytics</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Data Analyst</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Front End Web Developer</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Intro to Programming</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Intro to Machine Learning</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Machine Learning Engineer</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Predictive Analytics for Business</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Programming for Data Science with Python</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >Programming for Data Science with R</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#" >React</a></li>
+
+                </ul>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="feature-text">ONLY AT UDACITY</p>
+                    <ul class="ul">
+                        <li class="list-item  progress"><a class="list-link" href="#">Artificial Intelligence</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Deep Learning</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Digital Marketing</a></li>
+                        <li class="list-item  progress"><a class="list-link"  href="#">Flying Car and Autonomous Flight Engineer</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Intro to Self-Driving Cars</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Machine Learning Engineer</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Robotics Software Engineer</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Self-Driving Car Engineer</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <p class="feature-text">UDACITY SCHOOLS</p>
+                    <ul class="ul">
+                        <li class="list-item  progress"><a class="list-link" href="#">School of Artificial Intelligence</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">School of Autonomous Systems</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">School of Business</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">School of Data Science</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">School of Programming</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">School of Cloud Computing</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col">
+                    <p class="feature-text">RESOURCES</p>
+                    <ul class="ul">
+                        <li class="list-item  progress"><a class="list-link" href="#">Catalog</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Career Resource Center</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Career Services</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Hire Talent</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Get Hired</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Student Success</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Udacity Connect</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Udacity Talks</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Scholarships</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">What is AI?</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Talk to an Advisor</a></li>
+
+                    </ul>
+                </div>
+            
+                <div class="col">
+                    <p class="feature-text">PROGRAMS</p>
+                    <ul class="ul">
+                        <li class="list-item  progress"><a class="list-link" href="#">Veterans</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Georgia Tech</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col">
+                    <p class="feature-text">COMPANY</p>
+                    <ul class="ul">
+                        <li class="list-item  progress"><a class="list-link" href="#">About</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Blog</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">IN the News</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Jobs</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Udacity intersect</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Udacity Store</a></li>          
+                    </ul>
+                </div>
+            
+                <div class="col">
+                    <p class="feature-text">ENTERPRISE</p>
+                    <ul class="ul">
+                        <li class="list-item  progress"><a class="list-link" href="#">Udacity for Enterprise</a></li>
+                        <li class="list-item  progress"><a class="list-link" href="#">Hire Talent</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class='row'>
+                <p class="feature-text">SUPPORT</p>
+                <ul class="ul up">
+                    <li class="list-item  progress"><a class="list-link" href="#">Contact Us</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#">Help and FAQ</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#">Service Status</a></li>
+                    <li class="list-item  progress"><a class="list-link" href="#">Tech Requirements</a></li>
+                </ul>
+            </div>
+
+        </section>
+
+
+
+
+        <section class="footer-section2">
+            <div class="right-section">
+                <p class="copy">&copy; 2011–2019 Udacity, Inc.</p>
+                <a href="#">Legal & Privacy</a>
+                <a href="#">Regulatory information</a>
+                <a href="#">Site Map</a>
+            </div>
+
+            <div class="left-section">
+                <img class='sm' src="images/facebook.svg">
+                <img src="images/twitter.svg">
+                <img src="images/medium.svg">
+                <img src="images/linkedin.svg">
+                <img src="images/instagram.svg">
+                <img src="images/icon-flag-us.svg">
+                <p class="flag-name">United States</p>
+                <img src="images/Group 11 | arrowdown.svg">
+            </div>
+
+        </section>
+
+        <p class="copyright">"Nanodegree" is a registered trademark of Udacity. &copy; 2011–2019 Udacity, Inc.<br/> <span>Udacity is not an accredited university and we don't confer traditional degrees. Udacity Nanodegree programs represent
+        collaborations with our industry partners who help us develop our content and who hire many of our program graduates.</span></p>
+
+
+
+
+
+
+
+
+
+
+
+
+    </footer>
 
 
 
@@ -388,21 +781,20 @@
 
 
     <!-- Add alt attributes to your images -->
-    <img src="images/mentorship.svg" alt="">
+    <!-- <img src="images/mentorship.svg" alt="">
     <img src="images/time.svg" alt="">
     <img src="images/book-open.svg" alt="">
-    <img src="images/careers.svg" alt="">
+    <img src="images/careers.svg" alt=""> -->
 
 
 
 
-<img src="images/udacity.svg">
+<!-- <img src="images/udacity.svg"> -->
 
 
   
 
- 
-
+ <img class="chat" src="images/newest chat.svg">
 
 
 
@@ -416,7 +808,7 @@
 
 
     
-<i class="far fa-comment-alt fa-2x"></i>
+
 
 
 
