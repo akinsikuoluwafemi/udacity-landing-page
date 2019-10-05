@@ -1034,18 +1034,6 @@ invert() | opacity() | saturate() | sepia() | url(); */
 }
 
 
-.new {
-
-}
-
-
-.new-heading {
-
-}
-
-.new-text {
-
-}
 
 
 .learn > a:hover {
@@ -1062,7 +1050,7 @@ invert() | opacity() | saturate() | sepia() | url(); */
 
 .explore {
     position: absolute;
-    bottom:97rem;
+    bottom:90rem;
     left: 0;
     height: 30rem;
      margin: 6rem;
