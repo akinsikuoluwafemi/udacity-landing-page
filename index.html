@@ -11,14 +11,76 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <img class="nav-logo none" src="images/Udacity-nav-logo.svg">
+    <label class="ham" for="hamburger">&#9776;</label>
+    <input type="checkbox" id="hamburger" />
+
+
+
+
+    <ul class="example"> 
+
+        <li class="list-item p1 wrap">Programs
+            <svg class="ar1" _ngcontent-sc8="" height="32" style="fill:#ffffff;" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg">
+                <path _ngcontent-sc8="" d="M22 15.89c0 .319-.146.632-.414.82l-10.175 7.13a.868.868 0 0 1-.499.16c-.503 0-.912-.438-.912-.98V8.98c0-.186.049-.367.141-.524.27-.457.834-.593 1.26-.304l10.174 6.91c.11.075.205.174.276.292.1.165.149.35.149.533v.002z"
+                    fill-rule="evenodd"></path>
+            </svg>
+            <img class="nav-logo log" src="images/Udacity-nav-logo.svg">
+
+
+            <!-- <label for="toggle"><img class="down-arr" src="images/Group 11 | arrowdown.svg"></label> -->
+            <input id="toggle" type="checkbox">
+            <div class="show">
+                <a class="link-list dropdown" href="#">PROGRAMMING AND DEVELOPMENT</a>
+                <a class="link-list dropdown" href="#">ARTIFICIAL INTELLIGENCE</a>
+                <a class="link-list dropdown" href="#">CLOUD COMPUTING</a>
+                <a class="link-list dropdown" href="#">DATA SCIENCE</a>
+                <a class="link-list dropdown" href="#">BUSINESS</a>
+                <a class="link-list dropdown" href="#">AUTONOMOUS SYSTEMS</a>
+                <a class="link-list dropdown" href="#">CAREER</a>
+                <div></div>
+                <a class="link-list dropdown " id="btn" href="#">FULL CATALOG</a>
+            </div>
+        </li>
+
+
+
+
+
+
+        <li class="list-item ca">Career
+            <svg class="ar" _ngcontent-sc8="" height="32" style="fill:#ffffff;" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg">
+                <path _ngcontent-sc8="" d="M22 15.89c0 .319-.146.632-.414.82l-10.175 7.13a.868.868 0 0 1-.499.16c-.503 0-.912-.438-.912-.98V8.98c0-.186.049-.367.141-.524.27-.457.834-.593 1.26-.304l10.174 6.91c.11.075.205.174.276.292.1.165.149.35.149.533v.002z"
+                    fill-rule="evenodd"></path>
+            </svg>
+
+            <!-- <label for="toggling"><img class="down" src="images/Group 11 | arrowdown.svg"></label> -->
+            <input id="toggling" type="checkbox">
+            <div class="show-career">
+                <a class="link-list dropdown" href="#">CAREER PREP</a>
+                <a class="link-list dropdown" href="#">GET HIRED</a>
+                <a class="link-list dropdown" href="#">HIRE OUR GRADS</a>
+                <a class="link-list dropdown" href="#">STUDENT SUCCESS</a>
+                <a class="link-list dropdown" href="#">BECOME A MENTOR</a>
+            </div>
+        </li>
+
+        <li class="list-item"><a class="ent" href="#">For Enterprise</a></li>
+
+        <li class="list-item"><a class="ent blog" href="#">Blog</a></li>
+
+
+        <li class="list-item"><a class="cen" href="index.html">MY CLASSROOM</a></li>
+
+    </ul>
+
     <header class="header">
         <nav class="navigation">
             <ul class="list apart">
                 <li class="list-item"><a class="link-list" href="#"><img class="nav-logo" src="images/Udacity-nav-logo.svg"></a></li>
                 
-                
 
-                    <li class="list-item p1">Programs 
+                <li class="list-item p1">Programs 
 
                     <label for="toggle"><img class="down-arr" src="images/Group 11 | arrowdown.svg"></label>
                     <input id="toggle" type="checkbox">
@@ -119,11 +181,12 @@
     </section>
 
     <section class="discover">
-        <h2 class="heading center">Discover your perfect program in our schools</h2>
+        <h2 class="heading center disc">Discover your perfect program in our schools</h2>
 
 
         <div class="discover-boxes">
 
+            
             <div class="discover-box">
                 <img class="small" src="images/data_sci_icon.png" alt="data-science-icon">
                 <div class="discover-box-text">
@@ -160,7 +223,7 @@
             
             </div>
 
-            <div class="discover-box">
+            <div class="discover-box right">
                 <img class="small" src="images/icon-school-cloud.svg" alt="data-science-icon">
                 <div class="discover-box-text">
                     <p class="school">SCHOOL OF</p><br />
@@ -178,7 +241,7 @@
 
 
     <section class="top-companies">
-        <h2 class="heading center">Industry leading programs built and recognized by top companies worldwide</h2>
+        <h2 class="heading center align">Industry leading programs built and recognized by top companies worldwide</h2>
 
         <div class="top-companies-logo">
 
@@ -255,7 +318,7 @@
                 </div>
 
                 <div class="content-text">
-                    <h3><span>Real-world projects</span> from <br/> industry experts</h3>
+                    <h3 class="real"><span>Real-world projects</span> from <br/> industry experts</h3>
                     <p class="content-paragraph">With real world projects and immersive content built in partnership with top tier companies, you’ll master the tech
                     skills companies want.</p>
                 </div>  
@@ -271,8 +334,8 @@
                 </div>
             
                 <div class="content-text">
-                    <h3><span>1-on-1</span> technical mentor</h3>
-                    <p class="content-paragraph">Get a knowledgeable mentor who guides your learning and is focused on answering your questions, motivating you and
+                    <h3 class="real"><span>1-on-1</span> technical mentor</h3>
+                    <p class="content-paragraph par ">Get a knowledgeable mentor who guides your learning and is focused on answering your questions, motivating you and
                     keeping you on track.</p>
                 </div>
             </div>
@@ -288,7 +351,7 @@
             
                 <div class="content-text">
                     <h3>Personal career coach and <br /> <span>career services</span> </h3>
-                    <p class="content-paragraph">You’ll have access to career coaching sessions, interview prep advice, and resume and online professional profile
+                    <p class="content-paragraph bot">You’ll have access to career coaching sessions, interview prep advice, and resume and online professional profile
                     reviews to help you grow in your career</p>
                 </div>
             </div>
@@ -304,7 +367,7 @@
             
                 <div class="content-text">
                     <h3><span>Flexible</span> learning program</h3>
-                    <p class="content-paragraph">Get a custom learning plan tailored to fit your busy life. Along with easy monthly payments you can learn at your own
+                    <p class="content-paragraph par">Get a custom learning plan tailored to fit your busy life. Along with easy monthly payments you can learn at your own
                     pace and reach your personal goals</p>
                 </div>
             </div>
@@ -500,14 +563,14 @@
         </div>
     
         <div class="learn uptop">
-            <a href="#">Learn More</a>
+            <a class="btn-mentor" href="#">Learn More</a>
         
         </div>
     
     </section>
 
 
-    <img class="line" src="images/Group 16.svg">
+    <!-- <img class="line" src="images/Group 16.svg"> -->
 
 
 
@@ -681,16 +744,6 @@
 
         <p class="copyright">"Nanodegree" is a registered trademark of Udacity. &copy; 2011–2019 Udacity, Inc.<br/> <span>Udacity is not an accredited university and we don't confer traditional degrees. Udacity Nanodegree programs represent
         collaborations with our industry partners who help us develop our content and who hire many of our program graduates.</span></p>
-
-
-
-
-
-
-
-
-
-
 
 
     </footer>
