@@ -471,7 +471,7 @@ input[type="text"]::-webkit-input-placeholder {
     align-items: center;
     /* background: #F6F9FB; */
     background: #fff;
-    width: 23rem;
+    width: 22rem;
     /* max-width: 90%; */
     height: 13rem;
     text-align: center;
@@ -1388,7 +1388,7 @@ invert() | opacity() | saturate() | sepia() | url(); */
     }
 
     .discover-box {
-        width: 20rem;
+        width: 20rem;  
     }
 
 
@@ -1406,6 +1406,8 @@ invert() | opacity() | saturate() | sepia() | url(); */
     .bot {
         margin-top: -1rem;
     }
+
+    
 
 
 }
