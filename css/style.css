@@ -77,8 +77,8 @@ input:checked + div.show-career {
 .show {
     position: absolute;
     top: -8.35rem;
-    left: -14rem;
-    width: 32rem;
+    left: -18rem;
+    width: 30rem;
     height: 49rem; 
     background:#E5EFF5;
     visibility: hidden;
@@ -97,14 +97,16 @@ input:checked + div.show-career {
 }
 .show > div {
     border-top: 1px solid #ccc;
-    width: 81%;
+    width: 84%;
     margin: 1rem auto; 
     /* display: inline; */
 }
 .show-career {
     position: absolute;
     top: -17rem;
-    left: -7rem;
+    left: 7rem;
+    width: 22rem;
+
     background:#E5EFF5;
     visibility: hidden;
 }
@@ -1696,7 +1698,9 @@ invert() | opacity() | saturate() | sepia() | url(); */
 
     input:checked ~ .example {
         
-        visibility: visible;  
+        visibility: visible; 
+        left: 73rem; 
+
     }
    
 
@@ -1745,6 +1749,16 @@ invert() | opacity() | saturate() | sepia() | url(); */
         font-size: 1.2rem !important;
     }
 
+   
+
+}
+
+@media(max-width:768px) {
+     input:checked ~ .example {
+        
+        visibility: visible;
+        left: 66rem; 
+    }
 }
 
 
@@ -1798,6 +1812,12 @@ invert() | opacity() | saturate() | sepia() | url(); */
         font-size: 1.7rem;
     }
 
+    input:checked ~ .example {
+        
+        visibility: visible;
+        left: 66rem; 
+    }
+
 
 
 }
@@ -1836,6 +1856,14 @@ invert() | opacity() | saturate() | sepia() | url(); */
     .content-paragraph {
         font-size: 1.7rem;
     }
+
+    input:checked ~ .example {
+        
+        visibility: visible;
+        left: 66rem; 
+    }
+
+
 }
 
 
@@ -1941,6 +1969,12 @@ invert() | opacity() | saturate() | sepia() | url(); */
         font-size: 1.5rem;
     }
 
+    input:checked ~ .example {
+        
+        visibility: visible;
+        left: 63rem; 
+    }
+
 
 }
 
@@ -1983,6 +2017,12 @@ invert() | opacity() | saturate() | sepia() | url(); */
 
     .ul a{
         font-size: 1.5rem;
+    }
+
+    input:checked ~ .example {
+        
+        visibility: visible;
+        left: 60rem; 
     }
 
 }
@@ -2028,6 +2068,11 @@ invert() | opacity() | saturate() | sepia() | url(); */
         font-size: 1.5rem;
     }
 
+    input:checked ~ .example {
+        
+        visibility: visible;
+        left: 54rem; 
+    }
 }
 
 
@@ -2067,6 +2112,12 @@ invert() | opacity() | saturate() | sepia() | url(); */
         font-size: 1.5rem;
     }
 
+    input:checked ~ .example {
+        
+        visibility: visible;
+        left: 52rem; 
+    }
+
 }
 
 
@@ -2095,6 +2146,12 @@ invert() | opacity() | saturate() | sepia() | url(); */
 
     .ul a{
         font-size: 1.5rem;
+    }
+
+    input:checked ~ .example {
+        
+        visibility: visible;
+        left: 54rem; 
     }
 }
 
@@ -2128,6 +2185,12 @@ invert() | opacity() | saturate() | sepia() | url(); */
     .ul a{
         font-size: 1.5rem;
     }
+
+    input:checked ~ .example {
+        
+        visibility: visible;
+        left: 46rem; 
+    }
 }
 
 
@@ -2155,6 +2218,12 @@ invert() | opacity() | saturate() | sepia() | url(); */
 
     .ul a{
         font-size: 1.5rem;
+    }
+
+    input:checked ~ .example {
+        
+        visibility: visible;
+        left: 47rem; 
     }
 
     
@@ -2204,6 +2273,52 @@ invert() | opacity() | saturate() | sepia() | url(); */
         font-size: 1.5rem;
     }
 
+    input:checked ~ .example {
+        
+        visibility: visible;
+        left: 47rem; 
+    }
+
+
+
+}
+
+@media(max-width:425px) {
+    .explore-path {
+        align-content: space-between;
+    }
+
+    .explore {
+       background-size: 135%;
+    }
+
+    .copyright {
+        margin: 0;
+    }
+
+    .content-image {
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .beside {
+        left: 17rem;
+    }
+
+    .line {
+    width: 71rem;
+    margin-left: 0rem;
+
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+
+
+
 }
 
 
@@ -2227,6 +2342,12 @@ invert() | opacity() | saturate() | sepia() | url(); */
 
     .copy {
             font-size: 1rem !important; 
+    }
+
+    input:checked ~ .example {
+        
+        visibility: visible;
+        left: 40rem; 
     }
 
     
@@ -2264,9 +2385,335 @@ invert() | opacity() | saturate() | sepia() | url(); */
 
     }
 
-    
+    input:checked ~ .example {
+        
+        visibility: visible;
+        left: 36.5rem; 
+    }
 
 }
+
+
+
+@media(max-width:359px) {
+    input:checked ~ .example {
+        
+        visibility: visible;
+        left: 31rem; 
+    }
+}
+
+@media(max-width: 375px ){
+
+
+    .beside{
+        left:12rem;
+    }
+
+    .discover-boxes {
+        margin-left: -12rem;
+        justify-content: left;
+
+    }
+
+    .mar {
+        margin-left: 4rem;
+    }
+
+    .mar2 {
+        margin-right: 23rem;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+
+    .front-end {
+        width: 56rem; 
+        margin-left: 2rem;
+    } 
+
+    .front-end-wrapper{
+        height: 15rem;
+    }
+    .new {
+        font-size: 2.5rem;
+    }
+
+    .learn > a {
+        right: 7rem;
+        padding: 1rem 2.5rem;
+    }
+
+    .disc {
+        margin-right: 29rem;
+    }
+    .mentor {
+        width: 56rem; 
+        margin-left: 2rem;
+        margin-bottom: 10rem;
+
+
+    }
+
+    input:checked ~ .example {
+        
+        visibility: visible;
+        left: 34rem; 
+    }
+
+    .demand {
+        height: 45rem;
+        width: 39rem;
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+
+    .demand-section {
+        left: 2rem;
+        top: 7rem;
+    }
+        
+
+    .demand-flex > input[type="text"], .demand-flex > input[type="text"]:focus{
+        width: 33rem;
+    }
+
+    svg {
+        width: 7rem;
+    }
+
+    .content-image {
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .all-nanodegree {
+        margin-top: 2rem;
+    }
+
+    .content-text > h3 {
+        margin: 0 0 2.5rem 2.4rem;
+    }
+
+    .content-text {
+        margin-top: -9px;
+    }
+
+
+    .nanodegree { 
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+    }
+
+    .line {
+        width: 64rem;
+        margin-left: 0rem;
+
+    }
+
+        .enroll + a {
+        padding: .7rem 1rem;
+
+
+    }
+
+    .all-programmes {
+        margin-left: 1rem;
+    }
+
+
+
+    .footer {
+    margin: -4rem;
+    padding: 5rem;
+
+    }
+
+    .footer-section1 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .copyright {
+        margin: 0;
+    }
+
+    .explore-path {
+        margin-top: -15rem;
+    }
+
+    .footer {
+        margin-top: -3rem;
+    }
+
+
+
+}
+
+
+
+
+
+
+@media(max-width: 320px ){
+
+
+    .beside{
+        left:12rem;
+    }
+
+    .discover-boxes {
+        margin-left: -15rem;
+        justify-content: left;
+
+    }
+
+    .mar {
+        margin-left: 4rem;
+    }
+
+    .mar2 {
+        margin-right: 23rem;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+
+    .front-end {
+        width: 50rem; 
+        margin-left: 2rem;
+    } 
+
+    .front-end-wrapper{
+        height: 15rem;
+    }
+    .new {
+        font-size: 2.5rem;
+    }
+
+    .learn > a {
+        right: 7rem;
+        padding: 1rem 2.5rem;
+    }
+
+    .disc {
+        margin-right: 29rem;
+    }
+    .mentor {
+        width: 50rem; 
+        margin-left: 2rem;
+
+    }
+
+    input:checked ~ .example {
+        
+        visibility: visible;
+        left: 29rem; 
+    }
+
+    .demand {
+        height: 45rem;
+        width: 39rem;
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+
+    .demand-section {
+        left: 2rem;
+        top: 7rem;
+    }
+        
+
+    .demand-flex > input[type="text"], .demand-flex > input[type="text"]:focus{
+        width: 33rem;
+    }
+
+    svg {
+        width: 7rem;
+    }
+
+    .content-image {
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .all-nanodegree {
+        margin-top: 2rem;
+    }
+
+    .content-text > h3 {
+        margin: 0 0 2.5rem 2.4rem;
+    }
+
+    .content-text {
+        margin-top: -9px;
+    }
+
+
+    .nanodegree { 
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+    }
+
+    .line {
+        width: 54rem;
+        margin-left: 0rem;
+
+    }
+
+        .enroll + a {
+        padding: .7rem 1rem;
+
+
+    }
+
+    .all-programmes {
+        margin-left: 1rem;
+    }
+
+
+
+    .footer {
+    margin: -4rem;
+    padding: 5rem;
+
+    }
+
+    .footer-section1 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .copyright {
+        margin: 0;
+    }
+
+    .explore-path {
+        margin-top: -15rem;
+    }
+
+    .footer {
+        margin-top: -8rem;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
