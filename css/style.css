@@ -2350,6 +2350,10 @@ invert() | opacity() | saturate() | sepia() | url(); */
         left: 40rem; 
     }
 
+
+    body {
+        overflow-x: hidden;
+    }
     
 
 }
@@ -2395,13 +2399,7 @@ invert() | opacity() | saturate() | sepia() | url(); */
 
 
 
-@media(max-width:359px) {
-    input:checked ~ .example {
-        
-        visibility: visible;
-        left: 31rem; 
-    }
-}
+
 
 @media(max-width: 375px ){
 
@@ -2553,6 +2551,17 @@ invert() | opacity() | saturate() | sepia() | url(); */
 
 }
 
+@media(max-width:359px) {
+    input:checked ~ .example {
+        
+        visibility: visible;
+        left: 31rem; 
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
 
 
 
@@ -2708,6 +2717,26 @@ invert() | opacity() | saturate() | sepia() | url(); */
 
 
 
+@media(max-width: 310px) {
+     body{
+        overflow-x: hidden;
+    }
+}
+
+
+
+@media(max-width: 300px) {
+     body{
+        overflow-x: hidden;
+    }
+}
+
+
+@media(max-width: 290px) {
+     body{
+        overflow-x: hidden;
+    }
+}
 
 
 
