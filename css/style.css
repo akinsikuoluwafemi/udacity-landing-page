@@ -354,7 +354,7 @@ input[type="text"]::-webkit-input-placeholder {
     margin: 6rem;
     margin-top: 10rem;
     background: #F3F8FD;
-    width: 118rem;
+    /* width: 118rem; */
     height: 23.6rem; 
     border-radius: 8px;
 }
@@ -442,7 +442,7 @@ input[type="text"]::-webkit-input-placeholder {
     margin: 6rem;
     margin-top: -2rem;
     border-radius: .8rem;
-    width: 118rem;
+    /* width: 118rem; */
     font-family: 'Open Sans', sans-serif;
 
 
@@ -626,10 +626,10 @@ h3 > span{
 }
 
 .line {
-    width:128rem;
+    /* width:128rem; */
     border: none;
     outline: none;
-    
+    margin: 0 3rem;
 }
 
 
@@ -1058,7 +1058,7 @@ invert() | opacity() | saturate() | sepia() | url(); */
     margin: 6rem;
     margin-top: 10rem;
     background: #F3F8FD;
-    width: 112.5rem;
+    /* width: 112.5rem; */
     height: 20rem; 
     border-radius: 8px;
 }
